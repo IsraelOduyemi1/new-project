@@ -1,0 +1,553 @@
+body{
+	margin: 0;
+}
+
+nav{
+	width: 100%;
+	height: 100px;
+	background-color: deepskyblue;
+}
+
+.container{
+	width:85%;
+	margin: auto;
+	
+}
+.logo{
+	width:50px;
+	margin-top: 12.5px;
+
+}
+
+a{
+	text-decoration: none;
+	color: #222;
+
+
+}
+
+.menu{
+	list-style-type: none;
+	display: inline; 
+    float: right;
+    position: relative;
+
+}
+
+.menu> li {
+	display: inline;
+	margin: 10px;
+	
+}
+
+.menu li:hover > a{
+	color: white;
+	background-color: skyblue;
+	padding: 30px 10px;
+}
+
+
+
+
+.hero-box{
+	position:relative;
+	width: 100%;
+	height: 600px;
+	background-image: url(santorini.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	
+}
+
+.hero-box-overlay{
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(100, 0, 0, 0.1);
+
+
+
+}
+
+
+.hero-content{
+
+	margin-top: 200px;
+	color: white ;
+	margin-bottom: 50px;
+}
+
+
+
+.hero-button{
+
+	background-color: white;
+	padding: 10px 40px; 
+	border-radius: 40px;
+
+}
+
+
+.hero-button:hover{
+    background-color: skyblue;
+    color: #fff;
+    padding: 15px 45px;
+    box-shadow: 3px 3px 12px rgba(255, 255, 255, 0.5);
+}
+
+
+.about-me-logo{
+
+
+	width:350px;
+	height: 350px;
+	margin-bottom: 1000px;
+	margin-top: -200px;
+	float: right;
+	position: relative;
+}
+
+
+
+.icon > li{
+	display: inline;
+	margin-left: 55px;
+	margin-right: -28px;
+
+}
+
+
+
+.about-header{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.about-header > h2{
+	text-transform: uppercase;
+
+}
+
+
+.About-desc{width: 45%;
+	float:left;
+
+}
+
+.skill-progress{
+	width: 45%;
+	float:right;
+	margin-top: 10px;
+
+}
+
+progress{
+	width: 100%;
+}
+
+.eighty{
+	float: right;
+}
+
+.about-me-section{
+	height: 500px;
+}
+
+
+
+.services-section{
+	width: 100%;
+	height: 750px;
+	background-color: #f5f5f5;
+	position: relative;
+	
+
+
+}
+
+
+.services-header{
+	margin-top: 20px;
+	
+
+}
+
+
+.services-overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+
+
+}
+
+
+.card{
+	width: 250px;
+	height: 250px;
+	background-color: white; 
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+	margin-top: 30px;
+
+}
+
+
+.card:hover{
+    width: 270px;
+    transition: ease-in 0.7s;
+}
+
+
+.logo-circle{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: blue;
+	background-image: url(santorini.jpg);
+	
+
+}
+
+
+.card-wrapper{
+
+	width: 500px;
+
+}
+
+
+.card-wrapper1{
+	margin-left: -1px;
+
+}
+
+
+.card-wrapper2{
+	margin-left: 150px;
+}
+
+.card-wrapper3{
+	margin-left: 150px;
+}
+
+
+.project-section{
+	width: 100%;
+	height: 250px;
+	background-color: yellow;
+	position: relative;
+	background-image: url(santorini.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+
+	}
+
+
+.project-header{
+	margin-top: 50px;
+	
+
+}
+
+
+.project-overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+
+}
+
+
+.web-dev-button{
+	padding: 10px;
+	border-radius: 50px;
+	color: skyblue;
+	float: left;
+	margin-left: 380px;
+	margin-top: 20px;
+	background-color: white;
+	
+
+}
+
+
+.web-dev-button:hover{
+    background-color: skyblue;
+    color: #fff;
+    padding: 5px 15px;
+    box-shadow: 3px 3px 12px rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+.mobile-app-button{
+	padding: 10px;
+	border-radius: 50px;
+	background-color: white;
+	color: skyblue;
+	float: right;
+	margin-right: 380px;
+	margin-top: 20px;
+
+
+}
+
+.mobile-app-button:hover{
+    background-color: skyblue;
+    color: #fff;
+    padding: 5px 15px;
+    box-shadow: 3px 3px 12px rgba(255, 255, 255, 0.5);
+}
+
+
+
+.my-recent-work{
+	width: 100%;
+	height: 870px;
+	position: relative;
+	background-color: lightblue;
+
+
+
+
+}
+
+
+.my-recent-work-header{
+	margin-top: 50px;
+	width: 45%
+
+}
+
+
+.my-recent-work-overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	
+	
+
+
+}
+
+
+.table-picture{
+	float: left;
+}
+
+
+.table-image1{
+	margin-left: 1px;
+}
+
+
+.table-image2{
+	margin-left: 80px;
+}
+
+
+.table-image3{
+	margin-left: 80px;
+}
+
+
+
+.view-my-work{
+	
+	border-radius: 50px;
+	
+	
+
+}
+
+
+.have-any{
+	font-family: montserrat;
+}
+
+.project-lorem{
+	font-size: bold;
+	font-weight: bold;
+}
+
+
+.btn-view-my-work{
+	padding: 10px;
+	border-radius: 50px;
+	background-color: white;
+	color: skyblue;
+	margin-top: 20px;
+	margin-right: 150px;
+
+}
+
+
+
+
+.btn-view-my-work:hover{
+    background-color: skyblue;
+    color: #fff;
+    padding: 15px 45px;
+    box-shadow: 3px 3px 12px rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+.get-in-touch{
+	width: 100%;
+	height: 810px;
+	position: relative;
+}
+
+
+.get-in-touch-overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: skyblue;
+
+}
+
+
+.get-in-touch-text{
+	width: 60%
+}
+
+
+
+.card1{
+	width: 250px;
+	height: 250px;
+	color: skyblue;
+	background-color: white; 
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+	margin-top: 30px;
+	margin-left: 30px;
+
+
+}
+
+
+.name{
+	width: 72%;
+    margin-bottom:15px;
+    height: 20px;
+    border: 0;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+.email{
+	width: 72%;
+	height: 25px;
+	border: 0;
+	margin-left: 30px;
+}
+
+.textarea{
+	margin-top: 20px;
+	width: 72%;
+	margin-left: 30px;
+}
+
+
+.btn-submit{
+	padding: 10px;
+	border-radius: 200px;
+	background-color: white;
+	color: skyblue;
+
+}
+
+
+
+.btn-submit:hover{
+    background-color: skyblue;
+    color: #fff;
+    padding: 15px 45px;
+    box-shadow: 3px 3px 12px rgba(255, 255, 255, 0.5);
+}
+
+
+
+.footer{
+	position: relative;
+	width: 100%;
+	height:250px;
+}
+
+
+.footer-overlay{
+	position: absolute;
+	width: 100%;
+	height:100%;
+	background-color: deepskyblue;
+	color: white;
+}
+
+.footer-text{
+	width: 60%;
+	margin-bottom: 40px;
+}
+
+
+.footer-icon > li{display: inline;
+	margin-top: 30px;
+	}
+
+
+	.facebook-icon{
+	margin-left: 370px;
+	}
+
+	.twitter-icon{
+		margin-left: 30px;
+	}
+
+
+	.instagram-icon{
+		margin-left: 30px;
+	}
+
+
+	.linkedin-icon{
+		margin-left: 30px;
+
+	}
+
+
+	.copyright{
+		position: relative;
+		width: 100%;
+		height:100px;
+
+	}
+
+	.copyright-overlay{
+		position: absolute;
+		width: 100%;
+		height:100%;
+		background-color: lightsteelblue;
+
+	}
+
+
+
+	.copyright-text{
+		margin-top: 50px;
+	}
